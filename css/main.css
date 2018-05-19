@@ -1,0 +1,345 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background-color: transparent;
+}
+
+html {
+	font-size: 1em;
+	line-height: 1.4em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+::moz-selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+::webkit-selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+::selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+ul {
+	list-style: none;
+}
+
+body{
+	background: url(../img/bg.jpg) no-repeat;
+	background-color: rgba(0, 0, 0, 1);
+	background-size: cover;
+}
+
+.container {
+	width: 1280px;
+	margin: 100px auto;
+	overflow: hidden;
+	background-color: rgba(81, 179, 236, 0.5);
+	position: relative;
+}
+
+.clearfix {clear: both;}
+
+/*================================================
+				End Base Style
+================================================*/
+/*================================================
+			Start Style Hover Content
+   ================================================*/
+.perContent .leftContent .biodata:hover,
+.perContent .leftContent .education:hover,
+.perContent .leftContent .experience:hover,
+.perContent .leftContent .contact:hover,
+.perContent .rightContent:hover{
+	background-color: rgba(81, 179, 236, 0.5);
+}
+/*================================================
+			 End Style Hover Content
+================================================*/
+
+/*================================================
+			   Start Style Content
+================================================*/
+
+.content {
+	float: left;
+	width: 720px;
+}
+
+/*================================================
+			  Start Style About Me
+================================================*/
+.aboutMe {
+	background-color: #3a3a3a;
+	overflow: hidden;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+.aboutMe img {
+	width: 150px;
+	height: 180px;
+	float: left;
+	margin-right: 20px;
+}
+
+.aboutMe h1 {
+	font-size: 1.5em;
+	padding:  15px 0 15px 0;
+}
+
+.aboutMe p {
+	font-size: 1em;
+	padding-right: 20px;
+	text-align: justify;
+}
+/*================================================
+			 End Style About Me
+================================================*/
+
+.perContent .leftContent{
+	float: left;
+	width: 480px;
+}
+
+/*================================================
+			 Start Style Biodata
+ ================================================*/
+.perContent .leftContent .biodata {
+	float: left;
+	width: 150px;
+	height: 150px;
+	color: #FFF;
+	text-align: center;
+	margin-right: 10px;
+	background-color: #4FC3F7;
+}
+
+.perContent .leftContent .biodata a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.perContent .leftContent .biodata span {
+	font-size: 6em;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.perContent .leftContent .biodata h1 {
+	margin-top: 10px;
+}
+/*================================================
+			 End Style About Me
+================================================*/
+
+/*================================================
+		   Start Style Education
+================================================*/
+.perContent .leftContent .education {
+	float: left;
+	width: 150px;
+	height: 150px;
+	color: #FFF;
+	text-align: center;
+	margin-right: 10px;
+	background-color: #dc3c00;
+}
+
+.perContent .leftContent .education a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.perContent .leftContent .education span {
+	font-size: 6em;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.perContent .leftContent .education h1 {
+	margin-top: 10px;
+}
+/*================================================
+			 End Style Education
+  ================================================*/
+
+/*================================================
+			Start Style Experience
+================================================*/
+.perContent .leftContent .experience {
+	float: left;
+	width: 150px;
+	height: 150px;
+	color: #FFF;
+	text-align: center;
+	background-color: #80CBC4;
+}
+
+.perContent .leftContent .experience span {
+	font-size: 6em;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.perContent .leftContent .experience h1 {
+	margin-top: 10px;
+}
+/*================================================
+			End Style Experience
+================================================*/
+
+/*================================================
+			 Start Style Contact
+  ================================================*/
+.perContent .leftContent .contact {
+	width: 470px;
+	height: 130px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #FFCA28;
+}
+
+.perContent .leftContent .contact span {
+	font-size: 5em;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.perContent .leftContent .contact h1 {
+	margin-top: 5px;
+}
+
+/*================================================
+			 End Style Contact
+================================================*
+
+/*================================================
+			 Start Style Skills
+================================================*/
+.perContent .rightContent {
+	float: right;
+	width: 240px;
+	height: 290px;
+	color: #FFF;
+	text-align: center;
+	background-color: #795548;
+}
+
+.perContent .rightContent .skills a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.perContent .rightContent .skills span {
+	font-size: 10em;
+	display: inline-block;
+	margin-top: 45px;
+}
+
+.perContent .rightContent h1 {
+	margin-top: 15px;
+}
+/*================================================
+			  End Style Skills
+================================================*/
+
+/*================================================
+			   Start Style Menu
+================================================*/
+.menu {
+	width: 300px;
+	margin: 120px auto;
+	overflow: hidden;
+}
+
+.menu h1 {
+	height: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 40px;
+	color: #FFF;
+	background-color:#3a3a3a;
+}
+
+.menu ul li{
+	background: #FF9100;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 40px;
+}
+
+.menu ul li:hover{
+	background-color: rgba(81, 179, 236, 0.5);
+}
+
+
+.menu ul li span {
+	color: #FFF;
+	font-size: 2em;
+	margin: 10px 10px 0 10px;
+	margin-top: 3px;
+	margin-right: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+	padding-top: 8px;
+}
+/*================================================
+			  End Style Menu
+================================================*/
+
+/*================================================
+		  Start Style Sosial Media
+================================================*/
+
+.sosialMedia {
+	position: absolute;
+	bottom: 2;
+	right: 0;
+}
+
+.sosialMedia ul li {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	width: 50px;
+	text-align: center;
+	background: rgba(81, 179, 236, 0.5);
+}
+
+.sosialMedia ul li span a i {
+	color: #FFF;
+	font-size: 2em;
+}
+
+/*================================================
+		     End Style Sosial Media
+================================================*/
